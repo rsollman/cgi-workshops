@@ -1,2 +1,5 @@
 # cgi-workshops
-for CGI workshops
+Repository for CGI workshops
+
+# Cucumber and Selenium
+Will follow 
