@@ -17,12 +17,12 @@ import static org.junit.Assert.assertTrue;
  */
 public class StepDefinitionsGoogle {
     private final PageStrategy strategy = new PageStrategy();
-    private String URL_GOOGLE;
+    private final String URL_GOOGLE = "http://www.google.com";
 
     @Given("^I have an internet connection$")
     public void I_have_an_internet_connection() throws Throwable {
-        URL_GOOGLE = "http://www.google.com";
         assertNotNull(new URL(URL_GOOGLE).openConnection());
+        //todo getContent...
     }
 
     @When("^I browse to google.com$")
