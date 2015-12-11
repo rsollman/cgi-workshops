@@ -10,3 +10,7 @@ Clone this repositoy with <code>git clone https://github.com/rsollman/cgi-worksh
 
 # Cucumber and Selenium
 There are several Cucumber features created in the src/test directory. For example one called google.feature
+
+# Exercises
+- create a feature that uses a parameter for a boolean or comparison
+- create a feature 
