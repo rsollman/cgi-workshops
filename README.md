@@ -13,4 +13,4 @@ There are several Cucumber features created in the src/test directory. For examp
 
 # Exercises
 - create a feature that uses a parameter for a boolean or comparison
-- create a feature 
+- create a feature opens a webpage and checks for an element with a xpath expression
