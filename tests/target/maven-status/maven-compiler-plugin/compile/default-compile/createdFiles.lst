@@ -1,0 +1,12 @@
+com\cgi\selenium\pagecontainers\GoogleHomePage.class
+com\cgi\selenium\Page.class
+com\cgi\selenium\PageStrategy$1.class
+com\cgi\selenium\BrowserDriver.class
+com\cgi\selenium\BrowserDriver$BrowserCleanup.class
+com\cgi\selenium\BrowserDriver$1.class
+com\cgi\workshop\cucumber\definitions\StepDefinitionsLogin.class
+com\cgi\workshop\cucumber\definitions\StepDefinitionsGoogle.class
+com\cgi\workshop\cucumber\definitions\StepDefinitionsPricelist.class
+com\cgi\workshop\cucumber\Price.class
+com\cgi\selenium\PageStrategy.class
+com\cgi\workshop\cucumber\definitions\StepDefinitionsBoolean.class
