@@ -4,6 +4,7 @@ import com.cgi.selenium.BrowserDriver;
 import com.cgi.selenium.PageStrategy;
 import com.cgi.selenium.pagecontainers.GoogleHomePage;
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -34,5 +35,16 @@ public class StepDefinitionsGoogle {
     @Then("^I expect the google homepage search entry$")
     public void i_expect_the_search_entry() throws Throwable {
         assertTrue(strategy.getPage(GoogleHomePage.class.getName()).isDisplayed());
+    }
+
+    @And("^I search for the word \"([^\"]*)\"$")
+    public void I_search_for_the_word(String q) throws Throwable {
+        strategy.getPage(GoogleHomePage.class.getName()).search(q);
+    }
+
+    @Then("^I expect search results$")
+    public void I_expect_search_results() throws Throwable {
+        assertTrue(strategy.getPage(GoogleHomePage.class.getName()).hasResults());
+
     }
 }

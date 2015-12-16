@@ -5,4 +5,8 @@ package com.cgi.selenium;
  */
 public interface Page {
     public boolean isDisplayed();
+
+    public void search(String q);
+
+    boolean hasResults();
 }
